@@ -1,8 +1,5 @@
 import telebot, pywwf, json, requests, time, os
-try:
-	import Image
-except ImportError:
-	from PIL import Image
+
 
 
 token = pywwf.read("token.txt")

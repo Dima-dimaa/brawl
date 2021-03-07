@@ -3,11 +3,7 @@ try:
     import Image
 except ImportError:
     from PIL import Image
-try:
-	rgs = requests.get("https://vk.com/wall-202058871_4")
-	print(rgs.status_code)
-except:
-	exit(0)
+
 
 token = pywwf.read("token.txt")
 bot = telebot.TeleBot(token)

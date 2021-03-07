@@ -1,3 +1,4 @@
 pytelegrambotapi
 requests
 fake-useragent
+telebot

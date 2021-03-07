@@ -1,4 +1,3 @@
 pytelegrambotapi
 requests
-pywwf
 fake-useragent
